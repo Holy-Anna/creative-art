@@ -1,0 +1,28 @@
+.spots-container {
+    position: relative; 
+    overflow-x: hidden; 
+    width: 100%; 
+}
+
+.spots {
+    position: absolute; 
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%); 
+    width: 2300px; 
+    height: 100%; 
+    z-index: -1; 
+    background: url(../img/spots-dis_mob.png) no-repeat left 41% top 7.5%, 
+                url(../img/spots-create_mob.png) no-repeat left 52% top 42%, 
+                url(../img/spots-sub_mob.png) no-repeat left 47% bottom 15%;
+} 
+
+
+@media (min-width:768px) {
+    .spots {
+        background: url(../img/spots-dis_desk.png) no-repeat left 55% top -3%,
+                    url(../img/spots-create_desk.png) no-repeat left 0 top 37%,
+                    url(../img/spots-sub_desk.png) no-repeat left 0 bottom 8%;
+       
+    } 
+}

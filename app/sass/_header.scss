@@ -1,0 +1,13 @@
+.header {
+    padding-top: 40px;
+}
+
+.logo {
+    display: inline-flex;
+} 
+
+@media (min-width:992px) {
+    .header {
+        padding: 28px 0; 
+    } 
+}

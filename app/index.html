@@ -1,0 +1,436 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preload" href="./fonts/inter-regular.woff2" as="font" type="font/woff2" crossorigin="anonymous">
+    <link rel="preload" href="./fonts/inter-700.woff2" as="font" type="font/woff2" crossorigin="anonymous">
+    <link rel="preload" href="./fonts/canela-medium.woff2" as="font" type="font/woff2" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>CreativeArt</title>
+</head>
+
+<body class="body">
+    <div class="container-fluid wrapper g-32px">
+        <header class="header d-flex justify-content-between align-items-center">
+            <a class="logo" href="index.html">
+                <picture>
+                    <source media="(min-width:992px)" srcset="./img/logo_desk.svg">
+                    <img src="./img/logo_mob.svg" alt="">
+                </picture>
+            </a>
+            <nav class="menu d-flex align-items-center">
+                <button class="menu__burger js-menu-burger d-lg-none" type="button"
+                    aria-label="open/close mobile menu"></button>
+                <ul class="menu__list js-menu-list d-none d-lg-flex">
+                    <li><a href="#">Marketplace</a></li>
+                    <li><a href="#">Artists</a></li>
+                    <li><a href="#">Community</a></li>
+                    <li><a href="#">Collections</a></li>
+                </ul>
+            </nav>
+            <a class="btn btn_green d-none d-md-inline-flex" href="#">Contact</a>
+        </header>
+    </div>
+    <div class="spots-container">
+        <div class="spots"></div>
+        <div class="container-fluid wrapper g-32px">
+            <main>
+                <section class="discover">
+                    <div class="content">
+                        <h1 class="text text_xl">Discover and Collect The Best NFTs <span>Digital Art.</span></h1>
+                        <p>
+                            Get started with the easiest and most secure platform to buy and trade digital ART and
+                            NFT’s. Start exploring the world of digital art and NFTs today and take control of your
+                            digital assets with confidence!
+                        </p>
+                        <a class="btn btn_green" href="#">Explore Now</a>
+                        <a class="btn btn_trans" href="#">Learn More</a>
+                    </div>
+                    <div class="discover__img-box d-flex justify-content-end">
+                        <picture>
+                            <source type="image/webp" srcset="./img/girl.webp 1x, ./img/girl@2x.webp 2x">
+                            <img class="img-responsive" src="./img/girl.png" srcset="./img/girl@2x.png 2x"
+                                alt="A futuristic woman wearing steampunk goggles">
+                        </picture>
+                        <div class="timer timer_big js-timer">
+                            <div>
+                                <div class="timer__text timer__text_green">Ends in</div>
+                                <span></span>
+                            </div>
+                            <div class="timer__bid-box">
+                                <div class="timer__text timer__text_green">Current bid</div>
+                                <span>0.24ETH</span>
+                            </div>
+                            <a class="btn btn_gray mt-3 mt-sm-4" href="#">Place A Bid</a>
+                        </div>
+                    </div>
+                    <div class="discover__numbers d-flex justify-content-between">
+                        <div class="discover__numbers-item">
+                            <div class="text text_lg"><span>8.9</span>K</div>
+                            <span>Art work</span>
+                        </div>
+                        <div class="discover__numbers-item">
+                            <div class="text text_lg"><span>65</span>K</div>
+                            <span>Artist</span>
+                        </div>
+                        <div class="discover__numbers-item">
+                            <div class="text text_lg"><span>87</span>K</div>
+                            <span>Collection</span>
+                        </div>
+                    </div>
+                </section>
+                <section class="arts">
+                    <h2 class="text text_lg">
+                        <span>Amazing</span> and Super Unique Art of This <span>Week</span>
+                    </h2>
+                    <div class="arts__list row g-32px justify-content-center">
+                        <article class="col-auto col-xl-4">
+                            <div class="arts__item">
+                                <a href="#">
+                                    <picture>
+                                        <source type="image/webp"
+                                            srcset="./img/arts-art-01.webp 1x, ./img/arts-art-01@2x.webp 2x">
+                                        <img src="./img/arts-art-01.png" srcset="./img/arts-art-01@2x.png 2x"
+                                            alt="Person in a cyberpunk mask with blonde hair">
+                                    </picture>
+                                </a>
+                                <div class="arts__content d-flex flex-column">
+                                    <div class="d-flex align-items-start justify-content-between mb-lg-auto pb-3">
+                                        <a class="arts__link" href="#">Cyberpunk Cocomo</a>
+                                        <div class="arts__content-price d-flex align-items-center">
+                                            <svg width="24" height="24">
+                                                <use xlink:href="./img/sprite.svg#eth"></use>
+                                            </svg>
+                                            490ETH
+                                        </div>
+                                    </div>
+                                    <div class="d-flex justify-content-between align-items-center">
+                                        <div class="timer timer_small js-timer">
+                                            <div class="timer__text timer__text_gray">Ending In</div>
+                                            <div class="timer__box">
+                                                <svg width="24" height="25">
+                                                    <use xlink:href="./img/sprite.svg#clock"></use>
+                                                </svg>
+                                                <span></span>
+                                            </div>
+                                        </div>
+                                        <a class="btn btn_gray" href="#">Place A Bid</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </article>
+                        <article class="col-auto col-xl-4">
+                            <div class="arts__item">
+                                <a href="#">
+                                    <picture>
+                                        <source type="image/webp"
+                                            srcset="./img/arts-art-02.webp 1x, ./img/arts-art-02@2x.webp 2x">
+                                        <img src="./img/arts-art-02.png" srcset="./img/arts-art-02@2x.png 2x"
+                                            alt="Futuristic character in robotic armor">
+                                    </picture>
+                                </a>
+                                <div class="arts__content d-flex flex-column">
+                                    <div class="d-flex align-items-start justify-content-between mb-lg-auto pb-3">
+                                        <a class="arts__link" href="#">Charge, Qi tiao yu</a>
+                                        <div class="arts__content-price d-flex align-items-center">
+                                            <svg width="24" height="24">
+                                                <use xlink:href="./img/sprite.svg#eth"></use>
+                                            </svg>
+                                            490ETH
+                                        </div>
+                                    </div>
+                                    <div class="d-flex justify-content-between align-items-center">
+                                        <div class="timer timer_small js-timer">
+                                            <div class="timer__text timer__text_gray">Ending In</div>
+                                            <div class="timer__box">
+                                                <svg width="24" height="25">
+                                                    <use xlink:href="./img/sprite.svg#clock"></use>
+                                                </svg>
+                                                <span></span>
+                                            </div>
+                                        </div>
+                                        <a class="btn btn_gray" href="#">Place A Bid</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </article>
+                        <article class="col-auto col-xl-4">
+                            <div class="arts__item">
+                                <a href="#">
+                                    <picture>
+                                        <source type="image/webp"
+                                            srcset="./img/arts-art-03.webp 1x, ./img/arts-art-03@2x.webp 2x">
+                                        <img src="./img/arts-art-03.png" srcset="./img/arts-art-03@2x.png 2x"
+                                            alt="Sci-fi surgeon in an exosuit">
+                                    </picture>
+                                </a>
+                                <div class="arts__content d-flex flex-column">
+                                    <div class="d-flex align-items-start justify-content-between mb-lg-auto pb-3">
+                                        <a class="arts__link" href="#">Surgeon, Josh Rife</a>
+                                        <div class="arts__content-price d-flex align-items-center">
+                                            <svg width="24" height="24">
+                                                <use xlink:href="./img/sprite.svg#eth"></use>
+                                            </svg>
+                                            490ETH
+                                        </div>
+                                    </div>
+                                    <div class="d-flex justify-content-between  align-items-center">
+                                        <div class="timer timer_small js-timer">
+                                            <div class="timer__text timer__text_gray">Ending In</div>
+                                            <div class="timer__box">
+                                                <svg width="24" height="25">
+                                                    <use xlink:href="./img/sprite.svg#clock"></use>
+                                                </svg>
+                                                <span></span>
+                                            </div>
+                                        </div>
+                                        <a class="btn btn_gray" href="#">Place A Bid</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </article>
+                    </div>
+                    <a class="btn btn_green" href="#">See All</a>
+                </section>
+                <section class="create">
+                    <div class="content">
+                        <h2 class="text text_lg mx-auto mx-sm-0">Create And Sell Your<span> Best NFTs</span></h2>
+                        <p>
+                            Start exploring the world of digital art and NFTs today and take control of your digital
+                            assets with confidence!
+                        </p>
+                        <a class="btn btn_green" href="#">Create Now</a>
+                        <a class="btn btn_trans" href="#">Learn More</a>
+                    </div>
+                    <picture>
+                        <source type="image/webp" srcset="./img/create-img.webp 1x, ./img/create-img@2x.webp 2x">
+                        <img class="img-responsive" src="./img/create-img.png" srcset="./img/create-img@2x.png 2x"
+                            alt="A woman with dark skin and glowing orange cybernetic implants, and a person in a cat mask with red ribbons, set against neon Asian-style signs.">
+                    </picture>
+                </section>
+                <section class="artists">
+                    <h2 class="text text_lg mx-auto mx-sm-0">
+                        Popular <span>Artists</span> On This Week
+                    </h2>
+                    <div class="artists__list">
+                        <article class="artists__item size-1">
+                            <a class="artists__link" href="#">
+                                <picture>
+                                    <source type="image/webp"
+                                        srcset="./img/artists-art-01.webp 1x, ./img/artists-art-01@2x.webp 2x">
+                                    <img src="./img/artists-art-01.png" srcset="./img/artists-art-01@2x.png 2x"
+                                        alt="Futuristic pink-blue robot">
+                                </picture>
+                            </a>
+                            <a href="#">
+                                <div class="artists__info">
+                                    <picture>
+                                        <source type="image/webp"
+                                            srcset="./img/owner-01.webp 1x, ./img/owner-01@2x.webp 2x">
+                                        <img src="./img/owner-01.png" srcset="./img/owner-01@2x.png 2x" alt="">
+                                    </picture>
+                                    <span>Owner</span>
+                                    <div>Osvaldo Percy</div>
+                                </div>
+                            </a>
+                        </article>
+                        <article class="artists__item size-2">
+                            <a class="artists__link" href="#">
+                                <picture>
+                                    <source type="image/webp"
+                                        srcset="./img/artists-art-02.webp 1x, ./img/artists-art-02@2x.webp 2x">
+                                    <img src="./img/artists-art-02.png" srcset="./img/artists-art-02@2x.png 2x"
+                                        alt="A group of people in protective suits with futuristic helmets">
+                                </picture>
+                            </a>
+                            <a href="#">
+                                <div class="artists__info">
+                                    <picture>
+                                        <source type="image/webp"
+                                            srcset="./img/owner-02.webp 1x, ./img/owner-02@2x.webp 2x">
+                                        <img src="./img/owner-02.png" srcset="./img/owner-02@2x.png 2x" alt="">
+                                    </picture>
+                                    <span>Owner</span>
+                                    <div>Ranson Sqiure</div>
+                                </div>
+                            </a>
+                        </article>
+                        <article class="artists__item size-3 tall">
+                            <a class="artists__link" href="#">
+                                <picture>
+                                    <source type="image/webp"
+                                        srcset="./img/artists-art-03.webp 1x, ./img/artists-art-03@2x.webp 2x">
+                                    <img src="./img/artists-art-03.png" srcset="./img/artists-art-03@2x.png 2x"
+                                        alt="A futuristic figure in a blue metallic suit with sharp, angular designs, resembling a dragon">
+                                </picture>
+                            </a>
+                            <a href="#">
+                                <div class="artists__info">
+                                    <picture>
+                                        <source type="image/webp"
+                                            srcset="./img/owner-03.webp 1x, ./img/owner-03@2x.webp 2x">
+                                        <img src="./img/owner-03.png" srcset="./img/owner-03@2x.png 2x" alt="">
+                                    </picture>
+                                    <span>Owner</span>
+                                    <div>Sebastian waltan</div>
+                                </div>
+                            </a>
+                        </article>
+                        <article class="artists__item size-4">
+                            <a class="artists__link" href="#">
+                                <picture>
+                                    <source type="image/webp"
+                                        srcset="./img/artists-art-04.webp 1x, ./img/artists-art-04@2x.webp 2x">
+                                    <img src="./img/artists-art-04.png" srcset="./img/artists-art-04@2x.png 2x"
+                                        alt="A woman with dual ponytails, wearing a high-tech white and purple suit and holding a drone">
+                                </picture>
+                            </a>
+                            <a href="#">
+                                <div class="artists__info">
+                                    <picture>
+                                        <source type="image/webp"
+                                            srcset="./img/owner-04.webp 1x, ./img/owner-04@2x.webp 2x">
+                                        <img src="./img/owner-04.png" srcset="./img/owner-04@2x.png 2x" alt="">
+                                    </picture>
+                                    <span>Owner</span>
+                                    <div>Abraham Zack</div>
+                                </div>
+                            </a>
+                        </article>
+                        <article class="artists__item size-4">
+                            <a class="artists__link" href="#">
+                                <picture>
+                                    <source type="image/webp"
+                                        srcset="./img/artists-art-05.webp 1x, ./img/artists-art-05@2x.webp 2x">
+                                    <img src="./img/artists-art-05.png" srcset="./img/artists-art-05@2x.png 2x" alt="">
+                                </picture>
+                            </a>
+                            <a href="#">
+                                <div class="artists__info">
+                                    <picture>
+                                        <source type="image/webp"
+                                            srcset="./img/owner-05.webp 1x, ./img/owner-05@2x.webp 2x">
+                                        <img src="./img/owner-05.png" srcset="./img/owner-05@2x.png 2x"
+                                            alt="Adventurer in a futuristic mask with antennas in a dystopian world">
+                                    </picture>
+                                    <span>Owner</span>
+                                    <div>Cristio leo</div>
+                                </div>
+                            </a>
+                        </article>
+                    </div>
+                    <a class="btn btn_green" href="#">See All</a>
+                </section>
+                <section class="subscribe">
+                    <div class="content">
+                        <h2 class="text text_lg">Subscribe And <span>get our Updates</span> Every Week</h2>
+                        <p>
+                            We have a blog related to NFT so we can share thoughts and routines on our blog which is
+                            updated weekly
+                        </p>
+                        <form class="subscribe__form d-flex flex-column align-items-center flex-sm-row mx-sm-auto"
+                            action="#" autocomplete="on">
+                            <input type="email" placeholder="Enter your e-mail" name="email" required>
+                            <button class="btn btn_green" type="submit">Subscribe</button>
+                        </form>
+                    </div>
+                    <picture>
+                        <source type="image/webp" srcset="./img/subscribe-img.webp 1x, ./img/subscribe-img@2x.webp 2x">
+                        <img class="img-responsive" src="./img/subscribe-img.png" srcset="./img/subscribe-img@2x.png 2x"
+                            alt="A woman in a green helmet with electronic circuits and a display, and a character in futuristic green-pink samurai armor">
+                    </picture>
+                </section>
+            </main>
+            <footer class="footer">
+                <div class="footer__main">
+                    <div class="footer__box">
+                        <a class="logo" href="index.html">
+                            <img src="./img/logo.svg" alt="">
+                        </a>
+                        <p>
+                            Discover NFTs by category, track the latest drop, and and follow the collections you love.
+                            Enjoy it!
+                        </p>
+                        <ul class="footer__link-list d-flex">
+                            <li>
+                                <a href="#" aria-label="facebook link">
+                                    <svg width="9" height="16">
+                                        <use xlink:href="./img/sprite.svg#facebook"></use>
+                                    </svg>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" aria-label="telegram link">
+                                    <svg width="15" height="12">
+                                        <use xlink:href="./img/sprite.svg#telegram"></use>
+                                    </svg>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" aria-label="twitter link">
+                                    <svg width="15" height="14">
+                                        <use xlink:href="./img/sprite.svg#twitter"></use>
+                                    </svg>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" aria-label="linkedin link">
+                                    <svg width="15" height="16">
+                                        <use xlink:href="./img/sprite.svg#linkedin"></use>
+                                    </svg>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="footer__list d-md-flex justify-content-center">
+                        <article class="footer__item">
+                            <h3>Explore</h3>
+                            <ul>
+                                <li><a href="#">Art Sign In</a></li>
+                                <li><a href="#">Collectibles</a></li>
+                                <li><a href="#">Domain Name</a></li>
+                                <li><a href="#">Utility</a></li>
+                            </ul>
+                        </article>
+                        <article class="footer__item">
+                            <h3>Statistic</h3>
+                            <ul>
+                                <li><a href="#">Ranking</a></li>
+                                <li><a href="#">Collectibles</a></li>
+                                <li><a href="#">Activity</a></li>
+                            </ul>
+                        </article>
+                        <article class="footer__item">
+                            <h3>Company</h3>
+                            <ul>
+                                <li><a href="#">About Us</a></li>
+                                <li><a href="#">Career</a></li>
+                                <li><a href="#">Support</a></li>
+                                <li><a href="#">Partners</a></li>
+                            </ul>
+                        </article>
+                        <article class="footer__item">
+                            <h3>Resources</h3>
+                            <ul>
+                                <li><a href="#">Help Center</a></li>
+                                <li><a href="#">Platform Status</a></li>
+                                <li><a href="#">Blog</a></li>
+                            </ul>
+                        </article>
+                    </div>
+                </div>
+                <div class="footer__rights d-md-flex justify-content-end">
+                    <p class="me-auto">© Copyright 2023 - Creativeart</p>
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Terms & Conditions</a>
+                </div>
+            </footer>
+        </div>
+    </div>
+
+    <script src="js/all.js"></script>
+</body>
+
+</html>

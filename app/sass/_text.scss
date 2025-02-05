@@ -1,0 +1,28 @@
+@use "variables" as *;
+
+.text{
+    font-family: "Canela";
+    font-weight: 500;
+    line-height: 120%;
+    &_lg {
+        font-size: 31px;
+    }
+    &_xl {
+        font-size: 39px;
+    }
+    span {
+        color: $green;
+    }
+}
+
+
+@media (min-width:768px) {
+    .text{
+        &_lg{
+            font-size: 48px;
+        }
+        &_xl{
+            font-size: 64px;
+        }
+    }
+}

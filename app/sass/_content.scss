@@ -1,0 +1,25 @@
+.content {
+    text-align: center;
+    padding-bottom: 48px;
+    font-size: 0;
+    h1 {
+        padding-bottom: 22px;
+    }
+    h2 {
+        padding-bottom: 20px;
+    }
+    p {
+        font-size: 16px;
+        line-height: 160%;
+        padding-bottom: 32px;
+    }
+    & .btn_trans {
+        margin-left: 32px;
+    }
+}
+
+@media (min-width:1230px) {
+    .content {
+        text-align: start;
+    }      
+}

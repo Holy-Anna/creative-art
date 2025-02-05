@@ -1,0 +1,66 @@
+@use "variables" as *;
+
+.subscribe {
+    padding: 40px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    &__form {
+       max-width: 520px;
+       input {
+        width: 100%;
+        padding: 16px 23px;
+        border-radius: 8px;
+        background: #131E3A;
+        border: 1px solid #131E3A;
+        font-family: inherit;
+        line-height: 160%;
+        color: rgba(255, 255, 253, 0.72);
+        margin-bottom: 20px;
+        outline: none;
+        &:hover{
+            &::placeholder{
+                color: $green; 
+            }
+        }
+       }
+
+       ::placeholder {
+        color: rgba(255, 255, 253, 0.72);
+        font-size: 16px;
+        font-weight: 400;
+        transition: color .3s;
+       }
+    }
+    
+
+}
+
+@media (min-width:576px) {
+    .subscribe {
+        &__form {
+            border: 4px solid #131E3A;
+            border-radius: 8px;
+            background-color: #131E3A;
+            input {
+                padding: 14px 24px;
+                margin: 0;
+            }
+        }
+    }  
+}
+
+@media (min-width:1230px) {
+    .subscribe {
+        padding: 92px 0;
+        flex-direction: row-reverse;
+        justify-content: space-between;
+        .content {
+            max-width: 520px;
+            padding-bottom: 0;
+            p {
+                padding-bottom: 40px;
+            }
+        }
+    }
+}

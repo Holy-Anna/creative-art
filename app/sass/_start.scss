@@ -1,0 +1,73 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+.body {
+    background-color: #090F1D;
+    background-image: url("../img/bg_mob.png");
+    background-position: 0px 0.827px;
+    background-size: 179.034% 100.035%;
+    background-repeat: no-repeat;
+    background-blend-mode: color-burn;
+    font-family: "Inter","Arial", sans-serif;
+    color: #FFFFFD;
+    font-weight: 400;
+    min-width: 375px;
+   
+    a {
+        text-decoration: none;
+    }
+    ul {
+        list-style: none;
+    }
+    button {
+        cursor: pointer;
+    }
+}
+
+@media (min-resolution: 144dpi), (min-resolution: 1.5dppx) {
+    .body {
+        background-image: url("../img/bg_mob@2x.png");
+    }
+}
+
+.wrapper {
+    max-width: 1322px;
+    min-width: 375px;
+  
+}
+
+.img-responsive {
+    max-width: 100%;
+    height: auto;
+}
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
+.g-32px {
+    --bs-gutter-x: 32px;
+    --bs-gutter-y: 0;  
+}
+
+@media (min-width:992px) {
+    .body {
+        background-image: url("../img/bg_desk.png");
+        @media (min-resolution: 144dpi), (min-resolution: 1.5dppx) {
+            .body {
+                background-image: url("../img/bg_desk@2x.png");
+            }
+        }
+    }
+}
+
+    

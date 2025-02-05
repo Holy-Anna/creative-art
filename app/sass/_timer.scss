@@ -1,0 +1,29 @@
+.timer {
+    &__text {
+        font-size: 14px;
+        line-height: 160%;
+        &_gray {
+            color: #838382;
+            padding-bottom: 3px;
+        }
+        &_green {
+            color: #D3F85A;
+            padding-bottom: 8px;
+        }
+    }
+
+    &__box {
+        display: flex;
+        align-items: center;
+    }
+
+    svg {
+        margin-right: 12px;
+    }
+
+    span { 
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 120%;
+    }
+}
