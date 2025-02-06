@@ -5,7 +5,7 @@
 
 .body {
     background-color: #090F1D;
-    background-image: url("../img/bg_mob.png");
+    background-image: url("../img/bg_mob.webp");
     background-position: 0px 0.827px;
     background-size: 179.034% 100.035%;
     background-repeat: no-repeat;
@@ -28,7 +28,7 @@
 
 @media (min-resolution: 144dpi), (min-resolution: 1.5dppx) {
     .body {
-        background-image: url("../img/bg_mob@2x.png");
+        background-image: url("../img/bg_mob@2x.webp");
     }
 }
 
@@ -61,10 +61,10 @@
 
 @media (min-width:992px) {
     .body {
-        background-image: url("../img/bg_desk.png");
+        background-image: url("../img/bg_desk.webp");
         @media (min-resolution: 144dpi), (min-resolution: 1.5dppx) {
             .body {
-                background-image: url("../img/bg_desk@2x.png");
+                background-image: url("../img/bg_desk@2x.webp");
             }
         }
     }

@@ -4827,7 +4827,7 @@
 
 .body {
   background-color: #090F1D;
-  background-image: url("../img/bg_mob.png");
+  background-image: url("../img/bg_mob.webp");
   background-position: 0px 0.827px;
   background-size: 179.034% 100.035%;
   background-repeat: no-repeat;
@@ -4849,7 +4849,7 @@
 
 @media (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi), (min-resolution: 1.5dppx) {
   .body {
-    background-image: url("../img/bg_mob@2x.png");
+    background-image: url("../img/bg_mob@2x.webp");
   }
 }
 .wrapper {
@@ -4880,12 +4880,12 @@
 
 @media (min-width: 992px) {
   .body {
-    background-image: url("../img/bg_desk.png");
+    background-image: url("../img/bg_desk.webp");
   }
 }
 @media (min-width: 992px) and (-webkit-min-device-pixel-ratio: 1.5), (min-width: 992px) and (min-resolution: 144dpi), (min-width: 992px) and (min-resolution: 1.5dppx) {
   .body .body {
-    background-image: url("../img/bg_desk@2x.png");
+    background-image: url("../img/bg_desk@2x.webp");
   }
 }
 .spots-container {
@@ -4903,12 +4903,12 @@
   width: 2300px;
   height: 100%;
   z-index: -1;
-  background: url(../img/spots-dis_mob.png) no-repeat left 41% top 7.5%, url(../img/spots-create_mob.png) no-repeat left 52% top 42%, url(../img/spots-sub_mob.png) no-repeat left 47% bottom 15%;
+  background: url(../img/spots-dis_mob.webp) no-repeat left 41% top 7.5%, url(../img/spots-create_mob.webp) no-repeat left 52% top 42%, url(../img/spots-sub_mob.webp) no-repeat left 47% bottom 15%;
 }
 
 @media (min-width: 768px) {
   .spots {
-    background: url(../img/spots-dis_desk.png) no-repeat left 55% top -3%, url(../img/spots-create_desk.png) no-repeat left 0 top 37%, url(../img/spots-sub_desk.png) no-repeat left 0 bottom 8%;
+    background: url(../img/spots-dis_desk.webp) no-repeat left 55% top -3%, url(../img/spots-create_desk.webp) no-repeat left 0 top 37%, url(../img/spots-sub_desk.webp) no-repeat left 0 bottom 8%;
   }
 }
 .btn {
